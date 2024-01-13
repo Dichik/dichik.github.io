@@ -4,30 +4,23 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Books from './components/Books';
 import Projects from './components/Projects';
+import Header from './components/header/Header';
 import './App.css';
+import Footer from './components/footer/Footer';
 
 
 function App() {
   return (
     <Router>
       <div>
-        <header>
-          <nav>
-            <ul>
-              <li><Link to="/">About</Link></li>
-              <li><Link to="/experience">Experience</Link></li>
-              <li><Link to="/books">Books</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-            </ul>
-          </nav>
-        </header>
+        <Header />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/books" element={<Books />} />
           <Route path="/projects" element={<Projects />} />
-          {/* Add more routes as needed */}
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -14,6 +14,12 @@ const posts = [
         content: "This is the content of the second post.",
         // imageUrl: "path_to_image_2.jpg"
     },
+    {
+        id: 3,
+        title: "Third Post",
+        content: "This is the content of the second post.",
+        // imageUrl: "path_to_image_2.jpg"
+    },
 ];
 
 function Posts() {
