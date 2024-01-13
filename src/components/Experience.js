@@ -1,18 +1,18 @@
 import React from 'react';
+import './Experience.css';
 
 function Experience() {
     const experiences = [
         {
-            title: "Job Title 1",
-            company: "Company 1",
-            dates: "Jan 2020 - Present",
+            title: "TBD",
+            company: "TBD",
+            dates: "Jan TBD - Present",
             description: "Description of your responsibilities and achievements."
-        },
-        // ... other experiences
+        }
     ];
 
     return (
-        <div>
+        <div className='experience-container'>
             <h1>Experience</h1>
             {experiences.map((exp, index) => (
                 <div key={index}>

@@ -1,23 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { marked } from 'marked';
+import BooksList2024 from './BooksList2024';
+import BooksList2023 from './BooksList2023';
+import './BooksList.css';
 
 function Books() {
-    const books = [
-        {
-            title: "Book Title 1",
-            date: "2022"
-        },
-        // ... other books
-    ];
+    const [markdown, setMarkdown] = useState('');
+
+    useEffect(() => {
+        fetch('/BOOKS.md')
+            .then(response => response.text())
+            .then(text => setMarkdown(marked(text)));
+    }, []);
 
     return (
-        <div>
-            <h1>Books</h1>
-            {books.map((book, index) => (
-                <div key={index}>
-                    <h2>{book.title}</h2>
-                    <p>Published in {book.date}</p>
-                </div>
-            ))}
+        // <div className="markdown-container" dangerouslySetInnerHTML={{ __html: markdown }} />
+        <div className="books-list-container">
+            <h2 className='books-container-title'>An incomplete list of books that I've been reading lately...</h2>
+
+            <BooksList2024 />
+            <BooksList2023 />
         </div>
     );
 }

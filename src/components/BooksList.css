@@ -1,0 +1,30 @@
+.books-list-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.books-list-container h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.books-by-year h3 {
+  font-size: 1.5em;
+  /* color: #a00; */
+  margin-bottom: 10px;
+}
+
+.books-by-year ul {
+  list-style: none;
+  padding: 0;
+}
+
+.books-by-year li {
+  margin-bottom: 5px;
+}
+
+/* Add any additional styles you need here */
+
+.books-container-title {
+  margin-top: 5%;
+}
