@@ -1,11 +1,9 @@
 .site-footer {
-  color: #666; /* Change color as needed */
-  background-color: #f8f8f8; /* Change background as needed */
+  color: #666;
+  background-color: #f8f8f8;
   text-align: center;
   padding: 20px 0;
   border-top: 1px solid #e5e5e5;
-
-  margin-top: 20%;
 }
 
 .container {
