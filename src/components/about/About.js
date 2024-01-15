@@ -1,7 +1,8 @@
 import React from 'react';
-import Posts from '../posts/Posts';
 import './About.css';
 import News from '../news/News';
+import Achievements from '../achievements/Achievements';
+import Others from '../others/Others';
 
 function About() {
     return (
@@ -11,6 +12,8 @@ function About() {
             <p>This is a paragraph about me...</p>
 
             <News />
+            <Achievements />
+            <Others />
         </div>
     );
 }

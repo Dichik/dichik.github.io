@@ -1,0 +1,43 @@
+.others-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.others-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.others-date {
+  width: 150px;
+  font-weight: bold;
+  margin-right: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.others-description {
+  flex: 1;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.others-description a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.others-description a:hover {
+  text-decoration: underline;
+}

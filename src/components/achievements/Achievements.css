@@ -1,0 +1,41 @@
+.news-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 20px; */
+
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.news-date {
+  min-width: 100px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.news-description {
+  flex: 1;
+  text-align: left;
+}
+
+.news-description a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.news-description a:hover {
+  text-decoration: underline;
+}
