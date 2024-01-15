@@ -1,6 +1,7 @@
 import React from 'react';
 import Posts from '../posts/Posts';
 import './About.css';
+import News from '../news/News';
 
 function About() {
     return (
@@ -9,7 +10,7 @@ function About() {
             <h1>About Me</h1>
             <p>This is a paragraph about me...</p>
 
-            <Posts />
+            <News />
         </div>
     );
 }

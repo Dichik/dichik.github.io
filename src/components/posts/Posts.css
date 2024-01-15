@@ -1,3 +1,9 @@
 .posts-container {
-  margin-top: 10%;
+  flex: 1;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 20px;
 }
