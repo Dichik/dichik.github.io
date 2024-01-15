@@ -6,7 +6,6 @@ function Projects() {
             name: "Project 1",
             description: "A brief description of Project 1."
         },
-        // ... other projects
     ];
 
     return (

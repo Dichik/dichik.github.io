@@ -1,0 +1,32 @@
+.experience-container {
+  flex: 1;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.experience-box {
+  margin-top: 15px;
+}
+
+.descriptions-box {
+  margin-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tags-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

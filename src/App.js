@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import About from './components/About';
-import Experience from './components/Experience';
-import Books from './components/Books';
-import Projects from './components/Projects';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+import Books from './components/books/Books';
+import Projects from './components/projects/Projects';
 import Header from './components/header/Header';
-import './App.css';
 import Footer from './components/footer/Footer';
+import './App.css';
 
 
 function App() {
