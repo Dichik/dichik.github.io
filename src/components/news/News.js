@@ -2,7 +2,14 @@ import React from 'react';
 import './News.css';
 
 const newsItems = [
-    { date: "Month 2024", description: "TBD" },
+    { date: "Jan 2024", description: "TBD" },
+    { date: "Jan 2024", description: "TBD" },
+    { date: "Dec 2023", description: "Blog created 🥳" },
+    { date: "Dec 2023", description: "Finished internship  - Center of Responsible AI @ NYU" },
+    { date: "Nov 2023", description: "TBD" },
+    { date: "Aug 2023", description: "Not working at Harmix anymore." },
+    { date: "July 2023", description: "Didn't like, resigned from Huawei." },
+    { date: "May 2023", description: "Got $5k grant from CfE (team: Hearify)." },
 ];
 
 const News = () => {
