@@ -7,14 +7,15 @@ function Experience() {
             title: "Software Engineer",
             company: "TBD",
             dates: "Nov 2023 - Present",
-            descriptions: ["TBD."],
+            descriptions: ["Building something people want", "TBD."],
             tags: ["React", "NestJS"]
         },
         {
-            title: "Teaching Assistant",
-            company: "TBD",
-            dates: "Dec 2023 - Present",
-            descriptions: ["TBD."]
+            title: "Teaching Assistant @ Football Analytics",
+            company: "Ukrainian Catholic University",
+            dates: "Dec 2023 - Jan 2024",
+            descriptions: ["TBD."],
+            tags: ["Data Analytics", "Python", "Mentorship", "Management"]
         },
         {
             title: "Co-Founder",
@@ -47,8 +48,8 @@ function Experience() {
     const internships = [
         {
             title: "Research Student",
-            company: "TBD",
-            dates: "Nov 2023 - Present",
+            company: "Anhalt University",
+            dates: "Nov 2023 - Jan 2024",
             descriptions: ["TBD."],
             tags: ["Computer Vision"]
         },
