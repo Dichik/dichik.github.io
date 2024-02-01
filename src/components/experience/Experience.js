@@ -10,6 +10,12 @@ function Experience() {
             descriptions: ["Building something people want", "TBD."],
             tags: ["React", "NestJS"]
         },
+        // {
+        //     title: "Program and Event Coordinator",
+        //     company: "Center for Entrepreneurship (CfE), UCU",
+        //     dates: "Feb 2024 - Present",
+        //     descriptions: ["TBD."],
+        // },
         {
             title: "Teaching Assistant @ Football Analytics",
             company: "Ukrainian Catholic University",
@@ -18,10 +24,11 @@ function Experience() {
             tags: ["Data Analytics", "Python", "Mentorship", "Management"]
         },
         {
-            title: "Co-Founder",
+            title: "Co-Founder & COO",
             company: "Hearify",
             dates: "March 2023 - Nov 2023",
-            descriptions: ["TBD."]
+            descriptions: ["TBD."],
+            tags: ["Startup", "Management", "Communications", "Research", "Development"]
         },
         {
             title: "Machine Learning Engineer",
@@ -79,6 +86,7 @@ function Experience() {
             descriptions: [
                 "TBD (winners)",
             ],
+            tags: ["Startup", "Management", "Communications", "Research", "Development"]
         },
         {
             title: "Natural Language Processing School",
@@ -101,6 +109,7 @@ function Experience() {
                 "Tackled essential problems in Computer Vision such as object classification, segmentation, and detection, using state-of-the-art models like YOLOv3, ResNet, and UNet, through completion of three labs, a Kaggle competition, and a test.",
                 "Didn't complete the course."
             ],
+            tags: ["Deep Learning", "Computer Vision", "PyTorch"]
         },
         {
             title: "Data Science Fundamentals",
@@ -113,6 +122,7 @@ function Experience() {
                 "Created the guided project using Flask framework and packed it into a container with Docker.",
                 "As a final project, I solved a real-life ML problem to predict whether a patient is likely to get a stroke based on the input parameters, exposed it with REST API, and packed it into a container with Docker (accuracy 0.91)."
             ],
+            tags: ["Machine Learning", "Python", "Flask"]
         },
         {
             title: "ideasLab Accelerator for Student Startups | Batch 2",
@@ -122,6 +132,7 @@ function Experience() {
             descriptions: [
                 "Participated in the ideasLab Accelerator for Student Startups program, a 12-week program designed to help student entrepreneurs develop their startups and gain valuable business skills",
             ],
+            tags: ["Startup", "Management", "Communications", "Research"]
         },
         {
             title: "Software Engineering School | Batch 2",

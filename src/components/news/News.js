@@ -2,14 +2,25 @@ import React from 'react';
 import './News.css';
 
 const newsItems = [
-    { date: "Jan 2024", description: "TBD" },
-    { date: "Jan 2024", description: "TBD" },
-    { date: "Dec 2023", description: "Blog created 🥳" },
+    { date: "Jan 2024", description: "Finished Football Analytics Course as teaching assistant (UCU)." },
+    { date: "Jan 2024", description: "Finished my research @ Anhalt University" },
+    { date: "Dec 2023", description: "Blog and website created 🥳" },
     { date: "Dec 2023", description: "Finished internship  - Center of Responsible AI @ NYU" },
-    { date: "Nov 2023", description: "TBD" },
-    { date: "Aug 2023", description: "Not working at Harmix anymore." },
-    { date: "July 2023", description: "Didn't like, resigned from Huawei." },
+    { date: "Nov 2023", description: "Not working on Hearify anymore :(" },
+    { date: "Nov 2023", description: "Student Startup Battle (IT Arena) Winners (Slush Conference) (team: Hearify)" },
+    { date: "Sep 2023", description: "AI HOUSE Camp 2023 Winners (team: Hearify)" },
+    { date: "Aug 2023", description: "Not working at Harmix anymore :(" },
+    { date: "July 2023", description: "Didn't like, quitted the internship at Huawei." },
     { date: "May 2023", description: "Got $5k grant from CfE (team: Hearify)." },
+    { date: "March 2023", description: "Participated at MIT & KSE Bootcamp 2023 (team: Hearify)" },
+    { date: "March 2023", description: "Finished NLP School (Gathers)." },
+    { date: "Feb 2023", description: "Presented final project @ NLP for Good School (AI HOUSE)." },
+    { date: "Dec 2022", description: "finished ideasLab program | Batch 2" },
+    { date: "Dec 2022", description: "Quitted the job at MicroFocus :(" },
+    { date: "Nov 2022", description: "Finished Software Engineering School 2 @ Genesis, Kyiv-Mohyla Academy, AWS." },
+    { date: "Nov 2021", description: "Desided not to finish Java Camp @ ELEKs, quitted" },
+    { date: "Nov 2021", description: "Desided not to finish Openware Hackademy, quitted" },
+    { date: "Apr 2021", description: "Desided not to finish EPAM Java Course, quitted" },
 ];
 
 const News = () => {

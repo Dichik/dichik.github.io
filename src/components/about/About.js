@@ -11,6 +11,10 @@ function About() {
             <h1>About Me</h1>
             <p>This is a paragraph about me...</p>
 
+            <h3>Education</h3>
+            <p>2020-2024 Kyiv Polytechnic Institute (Software Engineering)</p>
+            <p>TBD (working on diploma)</p>
+
             <News />
             <Achievements />
             <Others />

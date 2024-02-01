@@ -2,6 +2,7 @@ import React from 'react';
 import './BooksList.css';
 
 const books = [
+    { year: 2024, title: '🔥 Стів Джобс', author: 'Волтер Айзексон' },
     { year: 2024, title: 'Never Stop', author: 'Марі Карачіна' },
     { year: 2024, title: 'The Path', author: 'Konosuke Matsushita' },
 ];
